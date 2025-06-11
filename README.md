@@ -249,8 +249,6 @@ Performance Monitoring:
 
 <div align="center">
 
-### **Philosophy**
-
 *"The best way to predict the future is to engineer it."*  
 **— Alan Kay**
 
