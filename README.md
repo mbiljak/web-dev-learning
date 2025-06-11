@@ -6,7 +6,7 @@
 [![Progress](https://img.shields.io/badge/Progress-Foundation%20Phase-blue?style=for-the-badge)](https://github.com)
 [![Stack](https://img.shields.io/badge/Stack-Full%20Stack%20%2B%20AI-orange?style=for-the-badge)](https://github.com)
 
-### *Engineering intelligent systems through progressive web development expertise*
+### *Engineering intelligent systems through progressive web development*
 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>&nbsp;&nbsp;
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="40" height="40"/>&nbsp;&nbsp;
