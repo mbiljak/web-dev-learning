@@ -1,0 +1,59 @@
+<!-- using CSS to style buttons -->
+
+<!-- style element is unique - it doesn't appear on the page -->
+<!-- inside this element, we can write CSS code - which modifies the appearance of other elements -->
+
+<style>
+  .subscribe-button { /* CSS selector - tells us which elements we are targeting, if we start with a dot this is refering to a class name*/
+    /* CSS property: CSS value */
+    background-color: rgb(203, 0, 0); /*max rgb value is 255*/
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 10px; /* space is called margin  */
+  }
+
+  .join-button{
+    background-color: white;
+    color: rgb(41, 116, 255);
+    border-color: rgb(41, 116, 255);
+    border-radius: 2px;
+    border-style: solid;
+    height: 36px;
+    width: 60px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  .tweet-button{
+    background-color: rgb(41, 116, 255);
+    color: white;
+    border: none;
+    border-radius:22px;
+    border-style: solid;
+    height: 43px;
+    width: 85px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+</style>
+
+<!-- we can assign class attributes to elements to reference them specifically in CSS using .class-name -->
+<!-- you can have multiple elements with the same class -->
+
+<button class="subscribe-button"> 
+  SUBSCRIBE 
+</button>
+
+<button class="join-button"> 
+  JOIN 
+</button>
+
+<button class="tweet-button"> 
+  Tweet 
+</button>

@@ -1,0 +1,75 @@
+<!-- buttons with pseudo classes for hovering and clicked states -->
+
+<style>
+  .subscribe-button { 
+    background-color: rgb(203, 0, 0); 
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 10px; 
+    transition: opacity 150ms; /* adds transition to specific property*/
+  }
+  /* the : represents a pseudo-class which is used to give styling at a specific state */
+  .subscribe-button:hover{
+    opacity: 75%;
+  }
+  .subscribe-button:active{
+    opacity: 60%;
+  }
+
+
+  .join-button{
+    background-color: white;
+    color: rgb(41, 116, 255);
+    border-color: rgb(41, 116, 255);
+    border-radius: 2px;
+    border-style: solid;
+    height: 36px;
+    width: 60px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 150ms,
+      color 150ms;  /* Can have multiple transitions, just use comma to seperate*/
+  }
+  .join-button:hover{
+    background-color: rgb(41, 116, 255);
+    color: white;
+  }
+  .join-button:active{
+    opacity: 70%;
+  }
+
+
+  .tweet-button{
+    background-color: rgb(41, 116, 255);
+    color: white;
+    border: none;
+    border-radius:22px;
+    height: 43px;
+    width: 85px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: box-shadow 150ms;
+  }
+  .tweet-button:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,15%);
+  }
+
+</style>
+
+
+<button class="subscribe-button"> 
+  SUBSCRIBE 
+</button>
+
+<button class="join-button"> 
+  JOIN 
+</button>
+
+<button class="tweet-button"> 
+  Tweet 
+</button>

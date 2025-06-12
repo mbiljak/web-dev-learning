@@ -1,0 +1,82 @@
+<!-- Text Styles -->
+
+<style>
+  /* makes css changes to all paragraphs */
+  /* the selector that is more specific is the changes that are adopted p < .video-title */
+  p{
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .video-title{
+    font-size: 18px;
+    font-weight: bold;
+    width: 300px; /* forces text to cut at certain point*/
+    line-height: 26px; /* increases spacing between words*/
+  }
+
+  .video-info{
+    font-size: 14px;
+    color: rgb(71, 71, 71);
+    margin-top: 5px; /* <p> comes with default margins of 14 */
+    margin-bottom: 14px;
+  }
+
+  .video-author{
+    font-size: 14px;
+    color: rgb(71, 71, 71);
+    margin-top: 5px; 
+  }
+
+  .video-description{
+    width: 300px; 
+    font-size: 14px;
+    color: rgb(71, 71, 71);
+    line-height: 22px; 
+    margin-top: 15px;
+    margin-bottom: 100px;
+  }
+
+  .apple-text{
+    font-size: 14px;
+    color: white;
+    background-color: rgb(253, 67, 67);
+    line-height: 22px; 
+    margin-bottom: 50px;   
+    text-align: center; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+  }
+  /* you can use span to customize pieces of text inside of paragraphs */
+  .span-shop-now{
+    margin-left: 10 px;
+    cursor: pointer;
+  }
+  .span-shop-now:hover{
+        text-decoration: underline;
+  }
+
+</style>
+
+<p class="video-title">
+  Talking Tech and AI with Google CEO Sundar Pichai! 
+</p>
+
+<p class="video-info">
+  3.4M views &#8226 6 months ago 
+</p>
+
+<p class="video-author">
+   Marques Brownlee &#10003 
+   <!-- use html entity code so it is supported in all browsers -->
+</p>
+
+<p class="video-description">
+  Talking tech and AI on the heels of Google I/O. Also a daily driver phone reveal from Google's CEO. Shoutout to Sundar! 
+</p>
+
+<p class="apple-text">
+  Shop early for the best selection of holiday favourites. <span class="span-shop-now"> Shop now &gt </span>
+</p>

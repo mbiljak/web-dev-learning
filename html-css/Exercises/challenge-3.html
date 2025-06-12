@@ -1,0 +1,70 @@
+<!-- Challenge 3 - Adding more styling, added base class for buttons, improved naming conventions -->
+
+<style> 
+  .nav-link--back {
+    color: rgb(0, 113, 133);
+  }
+  .nav-link--back:hover{
+    color: rgb(207, 0, 0);
+  }
+
+  .product-title {
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .product-price {
+    color: rgb(0, 118, 0);
+    font-weight: bold;
+  }
+  /* you can have a base class if defined in html*/
+  .btn {
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 100px; 
+    margin-right: 8px;
+    cursor: pointer;
+    transition: opacity 150ms;
+  }
+  .btn:hover{
+    opacity: .8;
+  }
+  .btn:active{
+    opacity: .6;
+  }
+
+  /* naming convention block--diferentiating-trait */
+  .btn--add-to-cart {
+    background-color: rgb(225, 216, 20);
+  }
+
+  .btn--buy-now {
+    background-color: rgb(225, 164, 28);
+  }
+</style>
+
+<a href="https://www.amazon.ca/" class="nav-link--back"> 
+  Back to Amazon
+</a>
+
+<p class="product-title">
+  Nike Black Running Shoes
+</p>
+
+<p class="product-price">
+  $39 - In Stock.
+</p>
+
+<p>
+  Free Delivery Tomorrow
+</p>
+
+<!-- base class btn, and modifier class btn--add-to-cart -->
+<button class="btn btn--add-to-cart"> 
+  Add to Cart
+</button>
+
+<button class="btn btn--buy-now">
+  Buy Now
+</button>
